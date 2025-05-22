@@ -5,7 +5,7 @@ pipeline {
         stage("Run Python Script") {
             steps {
                 echo "Running Pythong script to log user info"
-                sh 'echo -e "Parth\\nparth@example.com" | python3 user_logger.py'
+                sh 'echo "Parth\\nparth@example.com" | python3 user_logger.py'
             }
         }
 
