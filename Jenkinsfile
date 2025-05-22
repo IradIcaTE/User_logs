@@ -1,4 +1,4 @@
-pipleine {
+pipeleine {
     agent { label "First" }
 
     stages {
